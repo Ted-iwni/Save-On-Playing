@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UbiCell" id="KGk-i7-Jjw" customClass="UbiCell" customModule="Save_On_Playing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="linkLabel" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saF-Lc-1pH" userLabel="Link Label">
+                        <rect key="frame" x="0.0" y="0.0" width="45" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNH-N5-LIQ" userLabel="linkButton">
+                        <rect key="frame" x="5" y="5" width="40" height="40"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ib2-r9-Tuo">
+                        <rect key="frame" x="50" y="0.0" width="250" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <attributedString key="attributedText">
+                            <fragment content="nameLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfv-TK-qRF">
+                        <rect key="frame" x="300" y="0.0" width="160" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="Fo9-gi-aiJ"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="editionLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eo0-pO-ETu">
+                        <rect key="frame" x="460" y="0.0" width="60" height="50"/>
+                        <color key="backgroundColor" red="0.1704325676" green="0.78554266689999996" blue="0.34881281850000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="zLB-ai-dfw"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="discLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zI-Xu-uNO">
+                        <rect key="frame" x="614" y="0.0" width="98" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="vIP-3G-Az1"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="newPrLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QcR-uV-JVw" userLabel="UbiSwitch">
+                        <rect key="frame" x="714" y="10" width="51" height="30"/>
+                        <accessibility key="accessibilityConfiguration" label="UbiSwitch"/>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ob-1A-Dn9">
+                        <rect key="frame" x="520" y="0.0" width="94" height="50"/>
+                        <attributedString key="attributedText">
+                            <fragment content="oldPrLabel">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    <integer key="NSStrikethrough" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="2ob-1A-Dn9" secondAttribute="bottom" id="3M4-SX-vp1"/>
+                    <constraint firstItem="oNH-N5-LIQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="56v-eK-oYK"/>
+                    <constraint firstItem="2zI-Xu-uNO" firstAttribute="leading" secondItem="2ob-1A-Dn9" secondAttribute="trailing" id="6rh-M5-AsM"/>
+                    <constraint firstItem="2ob-1A-Dn9" firstAttribute="leading" secondItem="eo0-pO-ETu" secondAttribute="trailing" id="7zM-gQ-B9M"/>
+                    <constraint firstAttribute="bottom" secondItem="eo0-pO-ETu" secondAttribute="bottom" id="B7a-R9-zQe"/>
+                    <constraint firstItem="2zI-Xu-uNO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CEJ-xA-iph"/>
+                    <constraint firstItem="Ib2-r9-Tuo" firstAttribute="leading" secondItem="oNH-N5-LIQ" secondAttribute="trailing" constant="5" id="D9g-pM-YOD"/>
+                    <constraint firstAttribute="bottom" secondItem="oNH-N5-LIQ" secondAttribute="bottom" constant="5" id="EQj-C7-PkF"/>
+                    <constraint firstItem="yfv-TK-qRF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IpT-Dq-yS5"/>
+                    <constraint firstItem="QcR-uV-JVw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="PVs-M5-WgM"/>
+                    <constraint firstItem="oNH-N5-LIQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="U9y-md-6CW"/>
+                    <constraint firstItem="QcR-uV-JVw" firstAttribute="leading" secondItem="2zI-Xu-uNO" secondAttribute="trailing" constant="2" id="WJB-WK-EY8"/>
+                    <constraint firstItem="eo0-pO-ETu" firstAttribute="leading" secondItem="yfv-TK-qRF" secondAttribute="trailing" id="aMz-mF-eoy"/>
+                    <constraint firstAttribute="bottom" secondItem="yfv-TK-qRF" secondAttribute="bottom" id="bc5-cl-eI7"/>
+                    <constraint firstAttribute="bottom" secondItem="2zI-Xu-uNO" secondAttribute="bottom" id="bjg-0u-fdL"/>
+                    <constraint firstAttribute="trailing" secondItem="QcR-uV-JVw" secondAttribute="trailing" constant="5" id="cQU-fS-Mps"/>
+                    <constraint firstItem="saF-Lc-1pH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cRB-Oz-dpd"/>
+                    <constraint firstItem="eo0-pO-ETu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ch5-nR-wFI"/>
+                    <constraint firstItem="Ib2-r9-Tuo" firstAttribute="centerY" secondItem="oNH-N5-LIQ" secondAttribute="centerY" id="dFQ-JD-0QF"/>
+                    <constraint firstAttribute="bottom" secondItem="QcR-uV-JVw" secondAttribute="bottom" constant="10" id="eCV-sI-isZ"/>
+                    <constraint firstItem="2ob-1A-Dn9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hbe-ev-qks"/>
+                    <constraint firstItem="yfv-TK-qRF" firstAttribute="leading" secondItem="Ib2-r9-Tuo" secondAttribute="trailing" id="mnD-bt-xt0"/>
+                    <constraint firstItem="Ib2-r9-Tuo" firstAttribute="leading" secondItem="saF-Lc-1pH" secondAttribute="trailing" constant="5" id="qpO-UT-LJa"/>
+                    <constraint firstItem="saF-Lc-1pH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rwM-IT-oZg"/>
+                    <constraint firstItem="2zI-Xu-uNO" firstAttribute="leading" secondItem="2ob-1A-Dn9" secondAttribute="trailing" id="uc4-o4-lJp"/>
+                    <constraint firstAttribute="bottom" secondItem="saF-Lc-1pH" secondAttribute="bottom" id="xzX-Fi-Pmj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="UbiSwitch" destination="QcR-uV-JVw" id="q7M-gr-dR5"/>
+                <outlet property="discLabel" destination="eo0-pO-ETu" id="gYR-Wg-gWU"/>
+                <outlet property="editionLabel" destination="yfv-TK-qRF" id="Vya-U9-Apu"/>
+                <outlet property="linkButton" destination="oNH-N5-LIQ" id="qwY-CX-EKm"/>
+                <outlet property="linkLabel" destination="saF-Lc-1pH" id="GHS-lM-FLm"/>
+                <outlet property="nameLabel" destination="Ib2-r9-Tuo" id="nTL-rq-aU7"/>
+                <outlet property="newPrLabel" destination="2zI-Xu-uNO" id="EcP-jm-SdW"/>
+                <outlet property="oldPrLabel" destination="2ob-1A-Dn9" id="QRd-m4-kS3"/>
+            </connections>
+            <point key="canvasLocation" x="176.81159420289856" y="148.66071428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

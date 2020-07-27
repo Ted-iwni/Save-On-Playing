@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="SteamCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="SteamCell" id="KGk-i7-Jjw" customClass="SteamCell" customModule="Save_On_Playing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="linkLabel" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAJ-jG-N4a" userLabel="Link Label">
+                        <rect key="frame" x="0.0" y="0.0" width="45" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="7my-3u-Cfh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRr-0Y-pEe" userLabel="linkButton">
+                        <rect key="frame" x="5" y="5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="A9e-cL-uII"/>
+                            <constraint firstAttribute="width" constant="40" id="jrX-dR-9XG"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="D9x-cc-xG8">
+                        <rect key="frame" x="50" y="0.0" width="290" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <attributedString key="attributedText">
+                            <fragment content="nameLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNA-IN-5MY" userLabel="releaseLabel">
+                        <rect key="frame" x="340" y="0.0" width="110" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="bIM-Ta-XlZ"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="releaseLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Me5-gf-IGg">
+                        <rect key="frame" x="450" y="0.0" width="60" height="50"/>
+                        <color key="backgroundColor" red="0.1704325676" green="0.78554266689999996" blue="0.34881281850000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="0qC-5g-2N4"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="discLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1z1-Ht-vj8">
+                        <rect key="frame" x="610" y="0.0" width="100" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="DqI-9B-hoa"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="newPrLabel">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AsO-OC-tny" userLabel="SteamSwitch">
+                        <rect key="frame" x="714" y="10" width="51" height="30"/>
+                        <accessibility key="accessibilityConfiguration" label="SteamSwitch"/>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itH-wD-RmV">
+                        <rect key="frame" x="510" y="0.0" width="100" height="50"/>
+                        <attributedString key="attributedText">
+                            <fragment content="oldPrLabel">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <font key="NSFont" size="16" name="Helvetica"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    <integer key="NSStrikethrough" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="MRr-0Y-pEe" secondAttribute="bottom" constant="5" id="0qa-9Y-NM1"/>
+                    <constraint firstAttribute="bottom" secondItem="Me5-gf-IGg" secondAttribute="bottom" id="3Vh-su-Syi"/>
+                    <constraint firstAttribute="bottom" secondItem="1z1-Ht-vj8" secondAttribute="bottom" id="4yL-eJ-Q7R"/>
+                    <constraint firstItem="AsO-OC-tny" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Bh8-Ss-Ygd"/>
+                    <constraint firstItem="1z1-Ht-vj8" firstAttribute="leading" secondItem="itH-wD-RmV" secondAttribute="trailing" id="Cmw-Jb-3Xt"/>
+                    <constraint firstItem="Me5-gf-IGg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="D44-Qk-am4"/>
+                    <constraint firstItem="Me5-gf-IGg" firstAttribute="leading" secondItem="RNA-IN-5MY" secondAttribute="trailing" id="EzR-i4-zJI"/>
+                    <constraint firstItem="Me5-gf-IGg" firstAttribute="centerY" secondItem="RNA-IN-5MY" secondAttribute="centerY" id="GLF-Bn-5wC"/>
+                    <constraint firstItem="1z1-Ht-vj8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MaS-nA-4QY"/>
+                    <constraint firstItem="itH-wD-RmV" firstAttribute="leading" secondItem="Me5-gf-IGg" secondAttribute="trailing" id="Mb3-nW-Z8D"/>
+                    <constraint firstAttribute="bottom" secondItem="itH-wD-RmV" secondAttribute="bottom" id="QM0-xD-ahO"/>
+                    <constraint firstItem="D9x-cc-xG8" firstAttribute="centerY" secondItem="MRr-0Y-pEe" secondAttribute="centerY" id="RkW-ne-2NO"/>
+                    <constraint firstItem="itH-wD-RmV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Sbq-Hv-vRh"/>
+                    <constraint firstItem="gAJ-jG-N4a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Y2U-3G-2Dz"/>
+                    <constraint firstItem="gAJ-jG-N4a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e1a-o8-WZ7"/>
+                    <constraint firstAttribute="bottom" secondItem="AsO-OC-tny" secondAttribute="bottom" constant="10" id="fTO-e4-iIy"/>
+                    <constraint firstItem="MRr-0Y-pEe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="fm6-f0-KUk"/>
+                    <constraint firstAttribute="trailing" secondItem="AsO-OC-tny" secondAttribute="trailing" constant="5" id="lmF-Vc-MOf"/>
+                    <constraint firstItem="MRr-0Y-pEe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="nwq-Ij-eve"/>
+                    <constraint firstItem="RNA-IN-5MY" firstAttribute="leading" secondItem="D9x-cc-xG8" secondAttribute="trailing" id="o70-pi-KFl"/>
+                    <constraint firstItem="D9x-cc-xG8" firstAttribute="leading" secondItem="MRr-0Y-pEe" secondAttribute="trailing" constant="5" id="oaA-DZ-UwE"/>
+                    <constraint firstItem="AsO-OC-tny" firstAttribute="leading" secondItem="1z1-Ht-vj8" secondAttribute="trailing" constant="4" id="pem-7V-Y6q"/>
+                    <constraint firstAttribute="bottom" secondItem="gAJ-jG-N4a" secondAttribute="bottom" id="qFv-Ko-t8m"/>
+                    <constraint firstAttribute="bottom" secondItem="RNA-IN-5MY" secondAttribute="bottom" id="wdY-IX-sBk"/>
+                    <constraint firstItem="RNA-IN-5MY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="z9M-xL-HhM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="SteamSwitch" destination="AsO-OC-tny" id="6zD-Rf-NKY"/>
+                <outlet property="discLabel" destination="Me5-gf-IGg" id="318-C5-7rS"/>
+                <outlet property="linkButton" destination="MRr-0Y-pEe" id="cfW-qP-Mr8"/>
+                <outlet property="linkLabel" destination="gAJ-jG-N4a" id="eTN-5R-3Sr"/>
+                <outlet property="nameLabel" destination="D9x-cc-xG8" id="s01-yK-Pm2"/>
+                <outlet property="newPrLabel" destination="1z1-Ht-vj8" id="VX9-C7-CKf"/>
+                <outlet property="oldPrLabel" destination="itH-wD-RmV" id="GXU-jd-3q6"/>
+                <outlet property="releaseLabel" destination="RNA-IN-5MY" id="mSo-FP-00l"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
+        </tableViewCell>
+    </objects>
+</document>
