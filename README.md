@@ -1,0 +1,2 @@
+# Save-On-Playing
+Save on Playing is an iOS-platform mobile app, designed primally for iPad, which provides to user several tables of data containing discounts on video-games parsed from different on-line store's web-sites. This project was used for successful bachelor's thesis defense at the Moscow Power Engineering Institute. Although there is still large amount of things to do and improve before releasing the app, like adding support of all iPhones, new features and possibly new stores as resources of discounted video-games.
